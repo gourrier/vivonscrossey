@@ -3,10 +3,10 @@
   class: icon-github
   title: Schoolwork and half-finished projects
 
-# - name: Linkedin
-#   url: http://Linkedin.com/tatianaanthony
-#   class: icon-linkedin
-#   title: Professional Media
+- name: Linkedin
+  url: http://Linkedin.com/in/tatianaanthony
+  class: icon-linkedin
+  title: Professional Media
 
 # - name: YouTube
 #   url: http://www.youtube.com/PhlowMedia
