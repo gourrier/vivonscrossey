@@ -40,6 +40,14 @@ If you add a `white_space=true` to the frontmatter, it will add a small gap betw
 * Run Locally: ``bundle exec jekyll serve --config _config.yml,_config_dev.yml``
 * 
 
+
+## TODOs:
+- [ ] Make text wrap on two-column masthead
+- [ ] Fix Github Pages Build Error: 
+    * https://github.com/Phlow/feeling-responsive/issues/267
+    * https://github.com/zerostaticthemes/jekyll-serif-theme/issues/91#issuecomment-2050033364
+    * https://github.com/sieb/feeling-responsive/blob/gh-pages/.github/workflows/jekyll.yml
+
 ---
 ---
 ---
