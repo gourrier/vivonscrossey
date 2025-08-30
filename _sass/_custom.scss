@@ -5,6 +5,12 @@
 
 */
 
-img.rounded{
+img.rounded,
+#headshot-with-background-color.rounded{
     clip-path: circle(closest-side at center);
+    
+}
+
+#headshot-with-background-color.bordered{
+        background:$primary-color
 }

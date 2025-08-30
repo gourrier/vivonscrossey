@@ -270,3 +270,26 @@ asciidoctor:
     source-highlighter: coderay
     coderay-css: style
     icons: font
+
+
+#        ______                        _____      __            
+#       / ____/___  _________ ___     / ___/___  / /___  ______ 
+#      / /_  / __ \/ ___/ __ `__ \    \__ \/ _ \/ __/ / / / __ \
+#     / __/ / /_/ / /  / / / / / /   ___/ /  __/ /_/ /_/ / /_/ /
+#    /_/    \____/_/  /_/ /_/ /_/   /____/\___/\__/\__,_/ .___/ 
+#                                                      /_/      
+
+form-email: https://formsubmit.co/el/cuhufu
+
+
+#        __  __               __     __          __ 
+#       / / / /__  ____ _____/ /____/ /_  ____  / /_
+#      / /_/ / _ \/ __ `/ __  / ___/ __ \/ __ \/ __/
+#     / __  /  __/ /_/ / /_/ (__  ) / / / /_/ / /_  
+#    /_/ /_/\___/\__,_/\__,_/____/_/ /_/\____/\__/  
+#                                                   
+
+headshot-path: images
+headshot-image: squareheadshot.jpg
+headshot-shape: circle
+headshot-effect: border
