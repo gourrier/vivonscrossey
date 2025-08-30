@@ -8,6 +8,7 @@ layout: frontpage
 header: 
    white_space: True
    image_left: squareheadshot.jpg
+   image_shape: circle
    title: Hello!
    text: <p>I'm a Mechanical Engineer with experience in highly regulated industries, doing mechanical design, procurement, and process design. I'm located in Seattle, but open to remote work across the USA, Canada, or Europe.</p> <p>When I'm not in the office or doing personal design work, you can find me crocheting, enjoying music or strategic video games, or running my father's political campaign. </p> <p>I'm reachable at <a href="mailto:TMAnthony95@gmail.com?subject=%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C">TMAnthony95@gmail.com</a>, but I'm best contacted <a href="tel:+14077187237">by phone</a> or <a href="sms:%2B140777187237">by text</a>, or via the <a href="/contact">Contact page</a>.</p>
 widget1:

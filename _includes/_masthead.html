@@ -84,7 +84,7 @@
 		<div class="row{% if page.header.white_space == true %} t15 {% endif %}">
 			<div class="small-12 medium-6 large-4 columns">
 				<a id="left-image" href="{{ '/' | absolute_url }}" title="{{ site.title }} - {{ site.slogan }}">
-					<img src="{{ site.urlimg }}/{{ page.header.image_left }}" alt="{{ site.title }} - {{ site.slogan }}">
+					<img src="{{ site.urlimg }}/{{ page.header.image_left }}" alt="{{ site.title }} - {{ site.slogan }}" class="{% if page.header.image_shape == 'circle' %}rounded{% endif %}">
 				</a>
 			</div><!-- /.small-12.columns -->
 			<div class="small-12 medium-6 large-8 columns">
