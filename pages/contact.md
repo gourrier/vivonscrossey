@@ -11,7 +11,8 @@ I look forward to hearing from you, and I'll get back to you as soon as possible
 
 <div class="container">
   <!-- <h1>Contact Me</h1> -->
-  <form target="_blank" action=" https://formsubmit.co/el/cuhufu" method="POST">
+
+  <form target="_blank" action=" https://formsubmit.co/438151fbb32fcd60899ec85ec618e525" method="POST">
     <div class="form-group">
         <div class="form-col">
           <input type="text" name="name" class="form-control" placeholder="Name*" required>
@@ -31,6 +32,8 @@ I look forward to hearing from you, and I'll get back to you as soon as possible
       <textarea placeholder="Your Message*" class="form-control" name="message" rows="10" required></textarea>
     </div>
     <input type="hidden" name="_subject" value="New submission on tatianaanthony.github.io!">
+    <input type="text" name="_honey" style="display:none">
+    <input type="hidden" name="_next" value="{{ site.url }}/thank-you">
     <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
   </form>
 </div>
