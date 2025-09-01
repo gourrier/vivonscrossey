@@ -1,6 +1,6 @@
 ---
 layout: page
-header: false
+header: narrow
 title: "About"
 sidebar: left
 subheadline: "Who is Tatiana?"

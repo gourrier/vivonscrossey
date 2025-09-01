@@ -2,6 +2,7 @@
 /* TOC
 
 - Round Images
+- Short color masthead
 
 */
 
@@ -13,4 +14,14 @@ img.rounded,
 
 #headshot-with-background-color.bordered{
         background:$primary-color
+}
+
+
+
+/* Mastheads */
+
+
+#masthead-narrow-header {
+    background-color: $primary-color;
+    height: 60px;
 }

@@ -14,6 +14,19 @@
 		{% include _breadcrumb.html %}
 	{% endif %}
 
+{% elsif page.header == "narrow" %}
+
+	<div id="masthead-narrow-header">
+		<div class="row">
+			<div class="small-12 columns">
+				 
+			</div><!-- /.small-12.columns -->
+		</div><!-- /.row -->
+	</div><!-- /#masthead -->
+
+	{% if page.breadcrumb == true %}
+		{% include _breadcrumb.html %}
+	{% endif %}
 
 
 <!-- Masthead with Text -->
@@ -136,7 +149,6 @@
 		{{ page.header.caption }}
 	</div>
 	{% endif %}
-
 
 
 <!-- Background Color and Image Header -->
