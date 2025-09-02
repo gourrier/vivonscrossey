@@ -20,7 +20,12 @@ header:
 ### Important Internal Pages
 * `_sass/_07_layout_scss` - explains the `class="t## b## r## l##"` stuff.
 ### Important Documentation Links:
-* Instructions for the grid that is used to layout the entire page. https://get.foundation/sites/docs-v5/
+* [Instructions for the grid that is used to layout the entire page from Foundation v5](https://get.foundation/sites/docs-v5/components/grid)
+* [Kramdown Quick Reference](https://kramdown.gettalong.org/quickref.html)
+* [feeling-responsive Template source code for documentation pages on Github](https://github.com/Phlow/feeling-responsive/tree/gh-pages/_posts/design)
+  * The [Templates pages](https://phlow.github.io/feeling-responsive/design/) on the live feeling-responsive website.
+  * The [Header examples](https://phlow.github.io/feeling-responsive/headers/) on the live feeling-responsive website
+  * [General documentation](https://phlow.github.io/feeling-responsive/documentation/) on the live feeling-responsive website.
 
 <details>
 <summary>Unsure if these are actually useful </summary>
