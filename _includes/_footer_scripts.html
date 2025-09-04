@@ -39,3 +39,34 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 {% endif %}
 
+
+{% comment %}
+#  Start of accordion scroll script
+#
+#  More information in _config.yml
+#
+{% endcomment %}
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+        const accordionHeader = '.accordion-navigation';
+        const delay = 0;
+        const offset = 60;
+
+            document.querySelectorAll(accordionHeader).forEach((header) => {
+
+                header.addEventListener('click', () => {
+
+                    setTimeout(() => {
+                        window.scrollTo({
+                            top: header.getBoundingClientRect().top + window.pageYOffset - offset,
+                            behavior: 'smooth'
+                        });
+                    }, delay);
+
+                })
+
+            })
+
+        })
+</script>
