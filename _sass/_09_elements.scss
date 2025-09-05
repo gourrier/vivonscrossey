@@ -116,14 +116,39 @@ button, .button         { letter-spacing: 1px; }
 
 
 /* Accordion
-------------------------------------------------------------------- */
+------------------------------------------------------------------- 
+This was already here, but I had to update it to accommodate ul and li accordions, and to use the ::before instead of :before.  Here's the link where I got info about this /*https://stackoverflow.com/questions/41576713/custom-arrow-up-down-accordion-vertical-menu-foundation-6*/
 
-dl.accordion, ul.accordion { border-top: 1px solid $grey-2;  }
-.accordion dd, .accordion li   { border-bottom: 1px solid $grey-2;  }
-dd.accordion-navigation span, li.accordion-navigation span { padding-right: 12px; }
-dd.accordion-navigation span:before, li.accordion-navigation span { content: "\F107" }
-dd.accordion-navigation.active span:before, li.accordion-navigation.active span:before { content: "\F105" }
-dd.accordion-navigation.active span:before, li.accordion-navigation.active span:before { content: "\F105" }
+
+dl.accordion, 
+ul.accordion { 
+  border-top: 1px solid $grey-2;  
+}
+.accordion dd, 
+.accordion li   { 
+  border-bottom: 1px solid $grey-2;  
+}
+dd.accordion-navigation>span, 
+li.accordion-navigation>span {
+  padding-right: 12px; 
+  }
+dd.accordion-navigation>a::before, 
+li.accordion-navigation>a::before { 
+  font-family: iconfont;
+  content: "\F107" 
+}
+dd.accordion-navigation.active>a::before, 
+li.accordion-navigation.active>a::before {
+  /* This must happen twice - I don't know why. */
+  font-family: iconfont;
+  content: '\F105' 
+  }
+dd.accordion-navigation.active>a::before, 
+li.accordion-navigation.active>a::before {
+  /* This must happen twice - I don't know why. */
+  font-family: iconfont;
+  content: "\F105" 
+  }
 
 
 
