@@ -3,6 +3,7 @@
 
 - Round Images
 - Short color masthead
+- Accordion Icons
 
 */
 
@@ -24,4 +25,12 @@ img.rounded,
 #masthead-narrow-header {
     background-color: $primary-color;
     height: 60px;
+}
+
+/* Accordions ----------------------------------------------------------------------------------------------------------------------------------- */
+/* Adding a subtitle to the accordion */
+.accordion-navigation>a>.accordion-subtitle{
+    font-weight: 500;
+    font-style: italic;
+    padding: 0 1em;
 }
