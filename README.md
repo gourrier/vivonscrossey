@@ -50,25 +50,25 @@ And finally, I am a strong supporter of the open-source community, and a propone
 </details>
 
 #### Markdown
+
 * **How do you do multi-paragraph footnotes? (or lists and similar.)**
-    <details><summary>After the first paragraph, indent all other paragraphs by 4 spaces</summary>
-    **Source:** https://www.hardscrabble.net/2023/multi-paragraph-footnotes-in-markdown/
-    **Example**:
-    
-    ```
-    Some text.[^bignote]
+  * After the first paragraph, indent all other paragraphs by 4 spaces
+    * Source: <https://www.hardscrabble.net/2023/multi-paragraph-footnotes-in-markdown/>
+    * Example:
+ 
+        ```
+        Some text.[^bignote]
 
-    ---
-    [^bignote]: Here's one with multiple paragraphs and code.
+        ---
+        [^bignote]: Here's one with multiple paragraphs and code.
 
-        Indent paragraphs by 4 spaces to include them in the footnote.
+            Indent paragraphs by 4 spaces to include them in the footnote.
 
-        `{ my code }`
+            `{ my code }`
 
-        Add as many paragraphs as you like
-    ```
+            Add as many paragraphs as you like
+        ```
 
-    </details>
 * **How do I include HTML/CSS in my Markdown document, and use Markdown in my HTML elements/documents?**
     <details><summary>HTML elements work natively in Markdown documents.</summary>
     **Source:** 
