@@ -30,7 +30,12 @@ img.rounded,
 /* Accordions ----------------------------------------------------------------------------------------------------------------------------------- */
 /* Adding a subtitle to the accordion */
 .accordion-navigation>a>.accordion-subtitle{
+    >* {margin-bottom: 0em;}
     font-weight: 500;
     font-style: italic;
-    padding: 0 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: .25em;
+    padding-top: .25em;
+    margin-bottom: 0;
 }
